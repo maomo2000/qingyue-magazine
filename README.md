@@ -4,6 +4,28 @@
 
 > 轻阅杂志从文字稿开始，不负责把音频转成文字。
 
+## 页面预览
+
+下面的截图来自实际生成的杂志网页，展示了从阅读、标注到导出的完整体验。
+
+### 双栏杂志式阅读
+
+左侧目录与右侧正文各自独立滚动，适合在电脑和手机上进行中英文对照阅读。
+
+![轻阅杂志双栏阅读界面](qingyue-magazine/assets/screenshots/01-reader-layout.jpg)
+
+### 选中文字进行划线、高亮或写笔记
+
+选中正文后会出现快捷工具栏；划线颜色使用醒目的红色，高亮和笔记也可以随时追加或取消。
+
+![轻阅杂志标注工具栏](qingyue-magazine/assets/screenshots/02-annotation-toolbar.jpg)
+
+### 阅读记录与 PDF / Markdown 导出
+
+标注摘录和感悟笔记会集中显示在文章末尾，并可通过顶部按钮导出为 PDF 或 Obsidian 友好的 Markdown。
+
+![轻阅杂志阅读记录与导出](qingyue-magazine/assets/screenshots/03-reading-record-export.jpg)
+
 ## 适合什么场景
 
 - 输入 Markdown、PDF、Word 或 TXT 文字稿
@@ -88,7 +110,11 @@ cp -R qingyue-magazine/qingyue-magazine ~/.codex/skills/qingyue-magazine
 qingyue-magazine/
 ├── SKILL.md
 ├── agents/openai.yaml
-└── assets/magazine-template.html
+├── assets/magazine-template.html
+└── assets/screenshots/
+    ├── 01-reader-layout.jpg
+    ├── 02-annotation-toolbar.jpg
+    └── 03-reading-record-export.jpg
 ```
 
 ## 注意事项
