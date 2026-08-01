@@ -31,7 +31,7 @@ Skill 会先询问并检查文字稿，再生成 HTML 文件。打开网页后�
 
 ## 安装
 
-本仓库计划发布到 `maomo2000/qingyue-magazine`。
+本仓库发布于 `zdmailab/qingyue-magazine`。
 
 ### Codex
 
@@ -40,7 +40,7 @@ Skill 会先询问并检查文字稿，再生成 HTML 文件。打开网页后�
 一键安装 Prompt：
 
 ```text
-请从 https://github.com/maomo2000/qingyue-magazine 下载仓库，把其中的 qingyue-magazine/ 完整安装到 ~/.codex/skills/qingyue-magazine/。检查 SKILL.md 的 frontmatter 和 agents/openai.yaml；安装完成后告诉我如何用 $qingyue-magazine 测试。
+请从 https://github.com/zdmailab/qingyue-magazine 下载仓库，把其中的 qingyue-magazine/ 完整安装到 ~/.codex/skills/qingyue-magazine/。检查 SKILL.md 的 frontmatter 和 agents/openai.yaml；安装完成后告诉我如何用 $qingyue-magazine 测试。
 ```
 
 ### WorkBuddy
@@ -50,7 +50,7 @@ Skill 会先询问并检查文字稿，再生成 HTML 文件。打开网页后�
 一键安装 Prompt：
 
 ```text
-请从 https://github.com/maomo2000/qingyue-magazine 安装 qingyue-magazine Skill。安装内容是仓库里的 qingyue-magazine/ 目录；安装后重载 Skill 列表，并用一份 Markdown 文字稿做一次“文字稿转杂志网页”的冒烟测试。
+请从 https://github.com/zdmailab/qingyue-magazine 安装 qingyue-magazine Skill。安装内容是仓库里的 qingyue-magazine/ 目录；安装后重载 Skill 列表，并用一份 Markdown 文字稿做一次“文字稿转杂志网页”的冒烟测试。
 ```
 
 ### Claude Code
@@ -60,7 +60,7 @@ Skill 会先询问并检查文字稿，再生成 HTML 文件。打开网页后�
 一键安装 Prompt：
 
 ```text
-请从 https://github.com/maomo2000/qingyue-magazine 获取 qingyue-magazine/，安装到当前项目的 .claude/skills/qingyue-magazine/（如果当前目录没有项目 Skill 目录，则安装到 ~/.claude/skills/qingyue-magazine/）。确认 SKILL.md 可读，并说明如何调用它生成双语标注阅读网页。
+请从 https://github.com/zdmailab/qingyue-magazine 获取 qingyue-magazine/，安装到当前项目的 .claude/skills/qingyue-magazine/（如果当前目录没有项目 Skill 目录，则安装到 ~/.claude/skills/qingyue-magazine/）。确认 SKILL.md 可读，并说明如何调用它生成双语标注阅读网页。
 ```
 
 ### OpenClaw
@@ -70,13 +70,13 @@ Skill 会先询问并检查文字稿，再生成 HTML 文件。打开网页后�
 一键安装 Prompt：
 
 ```text
-请从 https://github.com/maomo2000/qingyue-magazine 安装 qingyue-magazine Skill：将仓库里的 qingyue-magazine/ 完整复制到当前 OpenClaw workspace 的 skills/qingyue-magazine/；如当前配置使用全局目录，则改用 ~/.openclaw/skills/qingyue-magazine/。安装后重载 Skill 索引，并用一句“把这篇文字稿转成双语杂志网页”验证触发。
+请从 https://github.com/zdmailab/qingyue-magazine 安装 qingyue-magazine Skill：将仓库里的 qingyue-magazine/ 完整复制到当前 OpenClaw workspace 的 skills/qingyue-magazine/；如当前配置使用全局目录，则改用 ~/.openclaw/skills/qingyue-magazine/。安装后重载 Skill 索引，并用一句“把这篇文字稿转成双语杂志网页”验证触发。
 ```
 
 ## 手动安装
 
 ```bash
-git clone https://github.com/maomo2000/qingyue-magazine.git
+git clone https://github.com/zdmailab/qingyue-magazine.git
 cp -R qingyue-magazine/qingyue-magazine ~/.codex/skills/qingyue-magazine
 ```
 
