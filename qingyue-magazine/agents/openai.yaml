@@ -1,0 +1,7 @@
+interface:
+  display_name: "轻阅杂志"
+  short_description: "将长文稿整理成适合手机阅读的双语标注杂志网页"
+  default_prompt: "Use $qingyue-magazine to turn this text document into a polished bilingual, annotatable magazine-style HTML reader."
+
+policy:
+  allow_implicit_invocation: true
