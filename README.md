@@ -51,6 +51,14 @@ Skill 会先询问并检查文字稿，再生成 HTML 文件。打开网页后�
 4. 用“存档”下载阅读进度 JSON，用“恢复”导入之前的 JSON。
 5. 读完后及时导出 PDF 或 MD。浏览器清理缓存可能会清除尚未导出的本地记录。
 
+### iPhone / iPad 使用说明
+
+iPhone 和 iPad 的 iOS/iPadOS 版本请统一使用 **Microsoft Edge** 打开、标注和导出。通过“文件”应用选择 HTML 后，使用“分享 → 用 Edge 打开”（如果系统没有显示 Edge，可以先在 Edge 中打开文件或使用 `http(s)://` 网页地址）。
+
+Edge 移动端已经针对触摸选区做兼容处理：选中文字后等待系统选区菜单稳定，再点击页面底部的“下划线 / 高亮 / 写笔记”。Safari 和 Chrome 的 iOS 本地 HTML 打开与选区行为不作为本 Skill 的支持路径。
+
+在 `file://` 场景下，部分 iOS 浏览器可能限制本地缓存，因此跨设备或清理浏览器数据前，请先点击“存档”下载 JSON，读完再导出 PDF / MD。
+
 ## 安装
 
 本仓库发布于 `zdmailab/qingyue-magazine`。
