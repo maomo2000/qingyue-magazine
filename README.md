@@ -128,3 +128,22 @@ qingyue-magazine/
 ## 注意事项
 
 这是一个本地 HTML 阅读工具，标注和笔记默认保存在浏览器的 localStorage 中。清理浏览器缓存、隐私模式关闭页面或更换浏览器，都可能让未导出的内容消失；建议阶段性点击“存档”，读完后及时导出 PDF 或 MD。
+
+# 升级
+可以把下面这段直接发给 Agent：
+
+```text
+请检查并升级我已安装的 qingyue-magazine（轻阅杂志）Skill。
+
+升级来源：
+https://github.com/zdmailab/qingyue-magazine
+
+要求：
+1. 读取 GitHub 仓库中的最新版本。
+2. 先备份当前已安装的 qingyue-magazine Skill。
+3. 用最新版本替换旧文件，不要覆盖我的文章、HTML 文件和阅读进度 JSON。
+4. 确认 SKILL.md、agents/openai.yaml 和 assets/magazine-template.html 都已更新。
+5. 告诉我旧版本、新版本，以及本次升级修复或新增了什么功能。
+6. 升级完成后，说明如何用 $qingyue-magazine 测试。
+```
+
